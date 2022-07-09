@@ -190,7 +190,6 @@
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Item
-    size: 24
     sprite: Objects/Weapons/Guns/Rifles/krinkov.rsi
   - type: Gun
     fireRate: 5
@@ -217,12 +216,11 @@
     containers:
       gun_magazine: !type:ContainerSlot
       gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
   - type: Appearance
-    visuals:
-    - type: MagVisualizer
-      magState: mag
-      steps: 1
-      zeroVisible: true
 
 - type: entity
   name: Sol
@@ -238,7 +236,6 @@
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Item
-    size: 24
     sprite: Objects/Weapons/Guns/Rifles/sol.rsi
   - type: Gun
     soundGunshot:
@@ -263,10 +260,8 @@
     containers:
       gun_magazine: !type:ContainerSlot
       gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
   - type: Appearance
-    visuals:
-    - type: MagVisualizer
-      magState: mag
-      steps: 1
-      zeroVisible: true
-
