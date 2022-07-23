@@ -1,0 +1,104 @@
+- type: entity
+  parent: BaseScrapPile
+  id: ScrapPileFood
+  suffix: Food
+  desc: amongus
+  components:
+  - type: StorageFill
+    contents:
+      - id: Tray
+        prob: 0.8
+      - id: FoodPlate
+        prob: 0.8
+      - id: FoodPlateTrash
+        prob: 0.8
+      - id: FoodPlateSmall
+        prob: 0.8
+      - id: FoodPlateSmallTrash
+        prob: 0.8
+      - id: FoodPlateTin
+        prob: 0.8
+      - id: FoodBoxDonut
+        prob: 0.01
+      - id: FoodContainerEgg
+        prob: 0.01
+      - id: EggBoxBroken
+        prob: 0.8
+      - id: DrinkGlass
+        prob: 0.8
+      - id: DrinkShotGlass
+        prob: 0.8
+      - id: DrinkAbsintheBottleFull
+        prob: 0.01
+      - id: DrinkBlueCuracaoBottleFull
+        prob: 0.01
+      - id: DrinkCognacBottleFull
+        prob: 0.01
+      - id: DrinkGrenadineBottleFull
+        prob: 0.01
+      - id: DrinkGinBottleFull
+        prob: 0.01
+      - id: DrinkGoldschlagerBottleFull
+        prob: 0.01
+      - id: DrinkKahluaBottleFull
+        prob: 0.01
+      - id: DrinkMelonLiquorBottleFull
+        prob: 0.01
+      - id: DrinkPatronBottleFull
+        prob: 0.01
+      - id: DrinkRumBottleFull
+        prob: 0.01
+      - id: DrinkTequilaBottleFull
+        prob: 0.01
+      - id: DrinkVermouthBottleFull
+        prob: 0.01
+      - id: DrinkVodkaBottleFull
+        prob: 0.01
+      - id: DrinkWhiskeyBottleFull
+        prob: 0.01
+      - id: DrinkWineBottleFull
+        prob: 0.01
+      - id: DrinkBeer
+        prob: 0.01
+      - id: DrinkAleBottleFull
+        prob: 0.01
+      - id: DrinkSoyMilkCarton
+        prob: 0.01
+      - id: DrinkMilkCarton
+        prob: 0.01
+      - id: DrinkCreamCarton
+        prob: 0.01
+      - id: DrinkJuiceTomatoCarton
+        prob: 0.01
+      - id: DrinkJuiceOrangeCarton
+        prob: 0.01
+      - id: DrinkJuiceLimeCarton
+        prob: 0.01
+      - id: DrinkWaterBottleFull
+        prob: 0.5
+      - id: FoodPizzaMargheritaSlice
+        prob: 0.01
+      - id: FoodPizzaMeatSlice
+        prob: 0.01
+      - id: FoodPizzaMushroomSlice
+        prob: 0.01
+      - id: FoodPizzaVegetableSlice
+        prob: 0.01
+      - id: FoodPizzaDonkpocketSlice
+        prob: 0.01
+      - id: FoodPizzaDankSlice
+        prob: 0.01
+      - id: FoodPizzaSassysageSlice
+        prob: 0.01
+      - id: FoodPizzaPineappleSlice
+        prob: 0.01
+      - id: FoodPizzaMoldySlice
+        prob: 0.01
+      - id: FoodMeatKebab
+        prob: 0.01
+      - id: FoodMeatRatKebab
+        prob: 0.01
+      - id: FoodBreadMeatSlice
+        prob: 0.01
+      - id: DrinkPoisonWinebottleFull
+        prob: 0.001

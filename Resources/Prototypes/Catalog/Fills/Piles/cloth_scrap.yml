@@ -1,632 +1,354 @@
 - type: entity
   parent: BaseScrapPile
-  id: ScrapPileMedical
-  suffix: Medical
+  id: ScrapPileCloth
+  suffix: Cloth
   desc: amongus
   components:
   - type: StorageFill
     contents:
-      - id: PartRodMetal1
-        amount: 1
-        prob: 0.7
-      - id: MedkitBurn
-        amount: 1
-        prob: 0.2
-      - id: MedkitToxin
-        amount: 3
-        prob: 0.2
-      - id: MedkitO2
-        amount: 4
-        prob: 0.2
-      - id: MedkitBrute
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitCombat
-        amount: 1
+      - id: ClothingBackpack
         prob: 0.01
-      - id: ShardGlass
-        amount: 3
-        prob: 0.7
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: PartRodMetal1
-        amount: 1
-        prob: 0.7
-      - id: MedkitBurn
-        amount: 1
-        prob: 0.2
-      - id: MedkitToxin
-        amount: 3
-        prob: 0.2
-      - id: MedkitO2
-        amount: 4
-        prob: 0.2
-      - id: MedkitBrute
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitCombat
-        amount: 1
+      - id: ClothingBackpackClown
         prob: 0.01
-      - id: ShardGlass
-        amount: 3
-        prob: 0.7
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
-      - id: MedkitAdvanced
-        amount: 1
-        prob: 0.2
+      - id: ClothingBackpackSecurity
+        prob: 0.005
+      - id: ClothingBackpackEngineering
+        prob: 0.01
+      - id: ClothingBackpackMedical
+        prob: 0.01
+      - id: ClothingBackpackCaptain
+        prob: 0.01
+      - id: ClothingBackpackMime
+        prob: 0.01
+      - id: ClothingBackpackHydroponics
+        prob: 0.01
+      - id: ClothingBackpackDuffel
+        prob: 0.01
+      - id: ClothingBackpackDuffelSecurity
+        prob: 0.005
+      - id: ClothingBackpackDuffelSyndicate
+        prob: 0.001
+      - id: ClothingBackpackSatchelSecurity
+        prob: 0.005
+      - id: ClothingBackpackSatchelEngineering
+        prob: 0.01
+      - id: ClothingBeltUtility
+        prob: 0.01
+      - id: ClothingBeltAssault
+        prob: 0.001
+      - id: ClothingBeltSecurity
+        prob: 0.01
+      - id: ClothingBeltMilitaryWebbing
+        prob: 0.001
+      - id: ClothingBeltSuspenders
+        prob: 0.01
+      - id: ClothingHeadset
+        prob: 0.01
+      - id: ClothingHeadsetCargo
+        prob: 0.01
+      - id: ClothingHeadsetCommand
+        prob: 0.005
+      - id: ClothingHeadsetEngineering
+        prob: 0.01
+      - id: ClothingHeadsetMedicalScience
+        prob: 0.01
+      - id: ClothingHeadsetRobotics
+        prob: 0.01
+      - id: ClothingHeadsetScience
+        prob: 0.01
+      - id: ClothingHeadsetSecurity
+        prob: 0.005
+      - id: ClothingHeadsetService
+        prob: 0.01
+      - id: ClothingEyesHudDiagnostic
+        prob: 0.01
+      - id: ClothingEyesHudMedical
+        prob: 0.01
+      - id: ClothingEyesHudSecurity
+        prob: 0.01
+      - id: ClothingEyesGlassesGarGiga
+        prob: 0.01
+      - id: ClothingEyesGlassesMeson
+        prob: 0.01
+      - id: ClothingEyesGlasses
+        prob: 0.01
+      - id: ClothingEyesGlassesSunglasses
+        prob: 0.005
+      - id: ClothingEyesGlassesSecurity
+        prob: 0.005
+      - id: ClothingEyesGlassesThermal
+        prob: 0.001
+      - id: ClothingHandsGlovesBoxingRed
+        prob: 0.01
+      - id: ClothingHandsGlovesCaptain
+        prob: 0.005
+      - id: ClothingHandsGlovesIhscombat
+        prob: 0.005
+      - id: ClothingHandsGlovesLatex
+        prob: 0.01
+      - id: ClothingHandsGlovesNitrile
+        prob: 0.01
+      - id: ClothingHandsGlovesLeather
+        prob: 0.01
+      - id: ClothingHandsGlovesPowerglove
+        prob: 0.01
+      - id: ClothingHandsGlovesSpaceNinja
+        prob: 0.001
+      - id: ClothingHandsGlovesCombat
+        prob: 0.001
+      - id: ClothingHandsGlovesFingerless
+        prob: 0.01
+      - id: ClothingHandsGlovesColorYellowBudget
+        prob: 0.2
+      - id: ClothingHandsGlovesColorYellow
+        prob: 0.001
+      - id: ClothingHandsGlovesColorWhite
+        prob: 0.01
+      - id: ClothingHeadHatAnimalMonkey
+        prob: 0.01
+      - id: ClothingHeadHatAnimalCat
+        prob: 0.01
+      - id: HatBandBlack
+        prob: 0.01
+      - id: HatBandGold
+        prob: 0.01
+      - id: HatBandBotany
+        prob: 0.01
+      - id: HatBandSkull
+        prob: 0.01
+      - id: ClothingHeadHatWelding
+        prob: 0.01
+      - id: ClothingHeadHatCargosoft
+        prob: 0.01
+      - id: ClothingHeadHatGreysoftFlipped
+        prob: 0.01
+      - id: ClothingHeadHatOrangesoft
+        prob: 0.01
+      - id: ClothingHeadHatSecsoft
+        prob: 0.005
+      - id: ClothingHeadHatCake
+        prob: 0.01
+      - id: ClothingHeadHatBunny
+        prob: 0.01
+      - id: ClothingHeadHatChickenhead
+        prob: 0.01
+      - id: ClothingHeadHatRichard
+        prob: 0.01
+      - id: ClothingHeadHatCone
+        prob: 0.01
+      - id: ClothingHeadHatHoodBioGeneral
+        prob: 0.01
+      - id: ClothingHeadHatHoodBioVirology
+        prob: 0.01
+      - id: ClothingHeadHatHoodRad
+        prob: 0.01
+      - id: ClothingHeadHelmetBombSuit
+        prob: 0.005
+      - id: ClothingHeadHelmetCosmonaut
+        prob: 0.005
+      - id: ClothingHeadHelmetHelmetOld
+        prob: 0.005
+      - id: ClothingHeadHelmetRiot
+        prob: 0.005
+      - id: ClothingHeadHelmetScaf
+        prob: 0.005
+      - id: ClothingHeadHelmetSpaceNinja
+        prob: 0.001
+      - id: ClothingHeadHelmetSyndicate
+        prob: 0.001
+      - id: ClothingHeadHelmetThunderdome
+        prob: 0.005
+      - id: ClothingHeadHelmetWizardHelm
+        prob: 0.001
+      - id: ClothingHeadHelmetFire
+        prob: 0.005
+      - id: ClothingHeadHelmetAtmosFire
+        prob: 0.005
+      - id: ClothingHeadHatHardhatBlue
+        prob: 0.01
+      - id: ClothingHeadHatHardhatOrange
+        prob: 0.01
+      - id: ClothingHeadHatHardhatRed
+        prob: 0.01
+      - id: ClothingHeadHatHardhatWhite
+        prob: 0.01
+      - id: ClothingHeadHatHardhatYellow
+        prob: 0.01
+      - id: ClothingHeadHatBeretHoS
+        prob: 0.005
+      - id: ClothingHeadHatBeretEngineering
+        prob: 0.01
+      - id: ClothingHeadHatBeretWarden
+        prob: 0.005
+      - id: ClothingHeadHatBowlerHat
+        prob: 0.01
+      - id: ClothingHeadHatCaptain
+        prob: 0.005
+      - id: ClothingHeadHatChef
+        prob: 0.01
+      - id: ClothingHeadHatFez
+        prob: 0.01
+      - id: ClothingHeadHatHoshat
+        prob: 0.005
+      - id: ClothingHeadHatWitch1
+        prob: 0.005
+      - id: ClothingHeadHatSombrero
+        prob: 0.01
+      - id: ClothingHeadHatTophat
+        prob: 0.01
+      - id: ClothingHeadHatUshanka
+        prob: 0.01
+      - id: ClothingHeadHatWarden
+        prob: 0.005
+      - id: ClothingMaskGas
+        prob: 0.01
+      - id: ClothingMaskGasSecurity
+        prob: 0.005
+      - id: ClothingMaskGasSyndicate
+        prob: 0.001
+      - id: ClothingMaskGasAtmos
+        prob: 0.01
+      - id: ClothingMaskGasCaptain
+        prob: 0.01
+      - id: ClothingMaskBreathMedical
+        prob: 0.01
+      - id: ClothingMaskClown
+        prob: 0.01
+      - id: ClothingMaskMime
+        prob: 0.01
+      - id: ClothingMaskSterile
+        prob: 0.01
+      - id: ClothingMaskMuzzle
+        prob: 0.01
+      - id: ClothingNeckScarfStripedRed
+        prob: 0.01
+      - id: ClothingNeckScarfStripedBlue
+        prob: 0.01
+      - id: ClothingNeckScarfStripedGreen
+        prob: 0.01
+      - id: ClothingNeckScarfStripedZebra
+        prob: 0.01
+      - id: ClothingNeckTieRed
+        prob: 0.01
+      - id: ClothingNeckTieDet
+        prob: 0.01
+      - id: ClothingNeckStethoscope
+        prob: 0.01
+      - id: ClothingOuterBioVirology
+        prob: 0.01
+      - id: ClothingOuterCoatLab
+        prob: 0.01
+      - id: ClothingOuterCoatWarden
+        prob: 0.01
+      - id: ClothingOuterHardsuitEngineering
+        prob: 0.001
+      - id: ClothingOuterHardsuitSyndicate
+        prob: 0.001
+      - id: ClothingOuterHardsuitSecurity
+        prob: 0.001
+      - id: ClothingOuterHardsuitSecurityRed
+        prob: 0.001
+      - id: ClothingOuterHardsuitSyndie
+        prob: 0.001
+      - id: ClothingOuterApron
+        prob: 0.01
+      - id: ClothingOuterApronBotanist
+        prob: 0.01
+      - id: ClothingOuterApronChef
+        prob: 0.01
+      - id: ClothingOuterJacketChef
+        prob: 0.01
+      - id: ClothingOuterHoodieChaplain
+        prob: 0.01
+      - id: ClothingOuterPonchoClassic
+        prob: 0.01
+      - id: ClothingOuterSuitBomb
+        prob: 0.001
+      - id: ClothingOuterSuitFire
+        prob: 0.01
+      - id: ClothingOuterSuitRad
+        prob: 0.01
+      - id: ClothingOuterSuitSpaceninja
+        prob: 0.001
+      - id: ClothingOuterSuitChicken
+        prob: 0.01
+      - id: ClothingOuterSuitAtmosFire
+        prob: 0.01
+      - id: ClothingOuterVest
+        prob: 0.01
+      - id: ClothingShoesBootsWork
+        prob: 0.01
+      - id: ClothingShoesBootsJack
+        prob: 0.01
+      - id: ClothingShoesColorBlack
+        prob: 0.01
+      - id: ClothingShoesColorBrown
+        prob: 0.01
+      - id: ClothingShoesColorOrange
+        prob: 0.01
+      - id: ClothingShoesColorRed
+        prob: 0.01
+      - id: ClothingShoesColorWhite
+        prob: 0.01
+      - id: ClothingShoesColorYellow
+        prob: 0.01
+      - id: ClothingShoesBootsMag
+        prob: 0.005
+      - id: ClothingShoesBootsMagSyndie
+        prob: 0.001
+      - id: ClothingShoesFlippers
+        prob: 0.01
+      - id: ClothingShoesLeather
+        prob: 0.01
+      - id: ClothingShoesSlippers
+        prob: 0.01
+      - id: ClothingShoeSlippersDuck
+        prob: 0.01
+      - id: ClothingShoesTourist
+        prob: 0.01
+      - id: ClothingShoesClown
+        prob: 0.01
+      - id: ClothingShoesGaloshes
+        prob: 0.01
+      - id: ClothingShoesSpaceNinja
+        prob: 0.01
+      - id: ClothingShoesChameleonNoSlips
+        prob: 0.001
+      - id: UniformScrubsColorGreen
+        prob: 0.01
+      - id: ClothingUniformJumpsuitColorGrey
+        prob: 0.01
+      - id: ClothingUniformJumpsuitChaplain
+        prob: 0.01
+      - id: ClothingUniformJumpsuitClown
+        prob: 0.01
+      - id: ClothingUniformJumpsuitEngineering
+        prob: 0.01
+      - id: ClothingUniformJumpsuitHydroponics
+        prob: 0.01
+      - id: ClothingUniformJumpsuitJanitor
+        prob: 0.01
+      - id: ClothingUniformJumpsuitMedicalDoctor
+        prob: 0.01
+      - id: ClothingUniformJumpsuitMime
+        prob: 0.01
+      - id: ClothingUniformJumpsuitScientist
+        prob: 0.01
+      - id: ClothingUniformJumpsuitSec
+        prob: 0.005
+      - id: ClothingUniformJumpsuitWarden
+        prob: 0.005
+      - id: ClothingUniformJumpsuitColorOrange
+        prob: 0.01
+      - id: ClothingUniformJumpsuitColorLightBrown
+        prob: 0.01
+      - id: ClothingUniformJumpsuitColorBrown
+        prob: 0.01
+      - id: ClothingUniformColorRainbow
+        prob: 0.01
+      - id: ClothingUniformOveralls
+        prob: 0.01
+      - id: ClothingUniformJumpsuitNanotrasen
+        prob: 0.01
+      - id: ClothingUniformJumpsuitOperative
+        prob: 0.001

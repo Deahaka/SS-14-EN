@@ -7,22 +7,36 @@
   - type: StorageFill
     contents:
       - id: PartRodMetal1
-        amount: 3
-        prob: 0.7
-      - id: MaterialWoodPlank1
         amount: 1
+        prob: 0.9
+      - id: PartRodMetal1
+        amount: 2
+        prob: 0.5
+      - id: PartRodMetal1
+        amount: 3
+        prob: 0.2
+      - id: PartRodMetal1
+        amount: 4
+        prob: 0.1
+      - id: MaterialWoodPlank1
         prob: 0.6
       - id: SheetGlass1
-        amount: 1
         prob: 0.3
       - id: SheetSteel1
-        amount: 3
         prob: 0.5
+      - id: SheetSteel1
+        amount: 2
+        prob: 0.25
+      - id: SheetSteel1
+        amount: 3
+        prob: 0.1
+      - id: SheetSteel1
+        amount: 4
+        prob: 0.05
       - id: SheetPlastic1
         amount: 4
         prob: 0.4
       - id: SheetPlasteel1
-        amount: 1
         prob: 0.1
       - id: ShardGlass
         amount: 2
