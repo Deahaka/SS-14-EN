@@ -1,6 +1,6 @@
 - type: entity
   parent: BaseStructure
-  id: ScrapPile
+  id: BaseScrapPile
   name: scrap pile
   description: amogus.
   components:
@@ -14,17 +14,11 @@
     sprite: Structures/Storage/Scrap/cloth.rsi
     layers:
     - state: base_underlay
-    - state: base_big
-    - state: overlay_14
-    - state: overlay_10
+    - state: my_icon
     netsync: false
     noRot: true
   - type: Storage
-    capacity: 80
-#  - type: Appearance
-#    visuals:
-#    - type: BagOpenCloseVisualizer
-#      openIcon:
+    capacity: 100
   - type: UserInterface
     interfaces:
     - key: enum.StorageUiKey.Key
@@ -60,5 +54,3 @@
             max: 1
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
-
-

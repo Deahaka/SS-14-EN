@@ -1,0 +1,632 @@
+- type: entity
+  parent: BaseScrapPile
+  id: ScrapPileMedical
+  suffix: Medical
+  desc: amongus
+  components:
+  - type: StorageFill
+    contents:
+      - id: PartRodMetal1
+        amount: 1
+        prob: 0.7
+      - id: MedkitBurn
+        amount: 1
+        prob: 0.2
+      - id: MedkitToxin
+        amount: 3
+        prob: 0.2
+      - id: MedkitO2
+        amount: 4
+        prob: 0.2
+      - id: MedkitBrute
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitCombat
+        amount: 1
+        prob: 0.01
+      - id: ShardGlass
+        amount: 3
+        prob: 0.7
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: PartRodMetal1
+        amount: 1
+        prob: 0.7
+      - id: MedkitBurn
+        amount: 1
+        prob: 0.2
+      - id: MedkitToxin
+        amount: 3
+        prob: 0.2
+      - id: MedkitO2
+        amount: 4
+        prob: 0.2
+      - id: MedkitBrute
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitCombat
+        amount: 1
+        prob: 0.01
+      - id: ShardGlass
+        amount: 3
+        prob: 0.7
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2

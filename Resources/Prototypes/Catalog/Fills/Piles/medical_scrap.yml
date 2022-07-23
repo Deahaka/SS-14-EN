@@ -1,0 +1,86 @@
+- type: entity
+  parent: BaseScrapPile
+  id: ScrapPileMedical
+  suffix: Medical
+  desc: amongus
+  components:
+  - type: StorageFill
+    contents:
+      - id: PartRodMetal1
+        amount: 1
+        prob: 0.7
+      - id: MedkitBurn
+        amount: 1
+        prob: 0.2
+      - id: MedkitToxin
+        amount: 3
+        prob: 0.2
+      - id: MedkitO2
+        amount: 4
+        prob: 0.2
+      - id: MedkitBrute
+        amount: 1
+        prob: 0.2
+      - id: MedkitAdvanced
+        amount: 1
+        prob: 0.2
+      - id: MedkitCombat
+        amount: 1
+        prob: 0.01
+      - id: ShardGlass
+        amount: 3
+        prob: 0.7
+      - id: Cautery
+        amount: 1
+        prob: 0.2
+      - id: Drill
+        amount: 1
+        prob: 0.1
+      - id: Scalpel
+        amount: 1
+        prob: 0.2
+      - id: ScalpelShiv
+        amount: 1
+        prob: 0.1
+      - id: Retractor
+        amount: 1
+        prob: 0.2
+      - id: Hemostat
+        amount: 1
+        prob: 0.2
+      - id: Saw
+        amount: 1
+        prob: 0.1
+      - id: HandheldHealthAnalyzer
+        amount: 1
+        prob: 0.4
+      - id: Ointment
+        amount: 1
+        prob: 0.2
+      - id: Brutepack
+        amount: 1
+        prob: 0.2
+      - id: Gauze
+        amount: 1
+        prob: 0.2
+      - id: PillDexalin
+        amount: 1
+        prob: 0.1
+      - id: DiseaseSwab
+        amount: 1
+        prob: 0.4
+      - id: HandheldCrewMonitor
+        amount: 1
+        prob: 0.05
+      - id: SyringeSpaceacillin
+        amount: 1
+        prob: 0.1
+      - id: SyringeInaprovaline
+        amount: 1
+        prob: 0.1
+      - id: PillTricordrazine
+        amount: 1
+        prob: 0.1
+      - id: PillSpaceDrugs
+        amount: 1
+        prob: 0.01
