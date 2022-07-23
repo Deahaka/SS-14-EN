@@ -6,8 +6,6 @@
   components:
   - type: StorageFill
     contents:
-      - id: Tray
-        prob: 0.8
       - id: FoodPlate
         prob: 0.8
       - id: FoodPlateTrash

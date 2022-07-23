@@ -19,7 +19,17 @@
         amount: 4
         prob: 0.1
       - id: MaterialWoodPlank1
+        amount: 1
         prob: 0.6
+      - id: MaterialWoodPlank1
+        amount: 2
+        prob: 0.3
+      - id: MaterialWoodPlank1
+        amount: 3
+        prob: 0.1
+      - id: MaterialWoodPlank1
+        amount: 4
+        prob: 0.01
       - id: SheetGlass1
         prob: 0.3
       - id: SheetSteel1
