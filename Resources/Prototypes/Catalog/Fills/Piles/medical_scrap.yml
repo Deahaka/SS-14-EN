@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseScrapPile
   id: ScrapPileMedical
-  suffix: Medical
+  suffix: Medical #TODO уменьшить говна
   desc: amongus
   components:
   - type: StorageFill
@@ -10,19 +10,19 @@
         prob: 0.7
       - id: PartRodMetal1
         amount: 5
-        prob: 0.2
-      - id: MedkitBurn
-        prob: 0.2
-      - id: MedkitToxin
-        prob: 0.2
-      - id: MedkitO2
-        prob: 0.2
-      - id: MedkitBrute
-        prob: 0.2
-      - id: MedkitAdvanced
-        prob: 0.2
-      - id: MedkitCombat
         prob: 0.01
+      - id: MedkitBurn
+        prob: 0.01
+      - id: MedkitToxin
+        prob: 0.01
+      - id: MedkitO2
+        prob: 0.01
+      - id: MedkitBrute
+        prob: 0.01
+      - id: MedkitAdvanced
+        prob: 0.01
+      - id: MedkitCombat
+        prob: 0.001
       - id: ShardGlass
         prob: 0.7
       - id: ShardGlass
@@ -30,46 +30,46 @@
         prob: 0.3
       - id: ShardGlass
         amount: 3
-        prob: 0.1
+        prob: 0.01
       - id: Cautery
-        prob: 0.2
+        prob: 0.25
       - id: Drill
-        prob: 0.1
+        prob: 0.01
       - id: Scalpel
-        prob: 0.2
+        prob: 0.25
       - id: ScalpelShiv
-        prob: 0.1
+        prob: 0.01
       - id: Retractor
-        prob: 0.2
+        prob: 0.25
       - id: Hemostat
-        prob: 0.2
+        prob: 0.25
       - id: Saw
-        prob: 0.1
+        prob: 0.01
       - id: HandheldHealthAnalyzer
         prob: 0.4
       - id: Ointment
-        prob: 0.2
+        prob: 0.01
       - id: Brutepack
-        prob: 0.2
+        prob: 0.01
       - id: Gauze
-        prob: 0.2
+        prob: 0.01
       - id: PillDexalin
-        prob: 0.1
+        prob: 0.01
       - id: DiseaseSwab
         prob: 0.4
       - id: HandheldCrewMonitor
-        prob: 0.05
+        prob: 0.001
       - id: SyringeSpaceacillin
-        prob: 0.1
-      - id: SyringeInaprovaline
-        prob: 0.1
-      - id: PillTricordrazine
-        prob: 0.1
-      - id: PillSpaceDrugs
         prob: 0.01
+      - id: SyringeInaprovaline
+        prob: 0.01
+      - id: PillTricordrazine
+        prob: 0.01
+      - id: PillSpaceDrugs
+        prob: 0.001
       - id: UniformScrubsColorPurple
-        prob: 0.1
+        prob: 0.01
       - id: UniformScrubsColorGreen
-        prob: 0.1
+        prob: 0.01
       - id: UniformScrubsColorBlue
-        prob: 0.1
+        prob: 0.01

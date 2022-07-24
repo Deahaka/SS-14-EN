@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseScrapPile
-  id: ScrapPileGun
-  suffix: Gun #TODO уменьшить говна
-  desc: amongus
+  id: ScrapPileSyndie
+  suffix: Syndie
+  desc: Strange scrap pile
   components:
   - type: StorageFill
     contents:
