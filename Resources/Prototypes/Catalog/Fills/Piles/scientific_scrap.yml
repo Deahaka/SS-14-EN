@@ -1,0 +1,198 @@
+- type: entity
+  parent: BaseScrapPile
+  id: ScrapPileScientific
+  suffix: Scientific
+  desc: amongus
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingHeadsetCargo
+        prob: 0.01
+      - id: ClothingHeadsetCommand
+        prob: 0.005
+      - id: ClothingHeadsetEngineering
+        prob: 0.01
+      - id: ClothingHeadsetMedicalScience
+        prob: 0.01
+      - id: ClothingHeadsetRobotics
+        prob: 0.01
+      - id: ClothingHeadsetScience
+        prob: 0.01
+      - id: ClothingHeadsetSecurity
+        prob: 0.005
+      - id: ClothingHeadsetService
+        prob: 0.01
+      - id: TimerTrigger
+        prob: 0.01
+      - id: SignalTrigger
+        prob: 0.01
+      - id: CapacitorStockPart
+        prob: 0.01
+      - id: AdvancedCapacitorStockPart
+        prob: 0.01
+      - id: SuperCapacitorStockPart
+        prob: 0.01
+      - id: QuadraticCapacitorStockPart
+        prob: 0.01
+      - id: ScanningModuleStockPart
+        prob: 0.01
+      - id: AdvancedScanningModuleStockPart
+        prob: 0.01
+      - id: PhasicScanningModuleStockPart
+        prob: 0.01
+      - id: TriphasicScanningModuleStockPart
+        prob: 0.01
+      - id: MicroManipulatorStockPart
+        prob: 0.01
+      - id: NanoManipulatorStockPart
+        prob: 0.01
+      - id: PicoManipulatorStockPart
+        prob: 0.01
+      - id: FemtoManipulatorStockPart
+        prob: 0.01
+      - id: MicroLaserStockPart
+        prob: 0.01
+      - id: HighPowerMicroLaserStockPart
+        prob: 0.01
+      - id: UltraHighPowerMicroLaserStockPart
+        prob: 0.01
+      - id: QuadUltraMicroLaserStockPart
+        prob: 0.01
+      - id: MatterBinStockPart
+        prob: 0.01
+      - id: AdvancedMatterBinStockPart
+        prob: 0.01
+      - id: SuperMatterBinStockPart
+        prob: 0.01
+      - id: BluespaceMatterBinStockPart
+        prob: 0.01
+      - id: AnsibleSubspaceStockPart
+        prob: 0.01
+      - id: FilterSubspaceStockPart
+        prob: 0.01
+      - id: AmplifierSubspaceStockPart
+        prob: 0.01
+      - id: TreatmentSubspaceStockPart
+        prob: 0.01
+      - id: AnalyzerSubspaceStockPart
+        prob: 0.01
+      - id: CrystalSubspaceStockPart
+        prob: 0.01
+      - id: TransmitterSubspaceStockPart
+        prob: 0.01
+      - id: FirelockElectronics
+        prob: 0.01
+      - id: SolarTrackerElectronics
+        prob: 0.01
+      - id: AutolatheMachineCircuitboard
+        prob: 0.01
+      - id: ProtolatheMachineCircuitboard
+        prob: 0.01
+      - id: APCElectronics
+        prob: 0.01
+      - id: DoorElectronics
+        prob: 0.01
+      - id: SupplyComputerCircuitboard
+        prob: 0.01
+      - id: SupplyRequestComputerCircuitboard
+        prob: 0.01
+      - id: ResearchComputerCircuitboard
+        prob: 0.01
+      - id: IDComputerCircuitboard
+        prob: 0.01
+      - id: BodyScannerComputerCircuitboard
+        prob: 0.01
+      - id: CommsComputerCircuitboard
+        prob: 0.01
+      - id: SolarControlComputerCircuitboard
+        prob: 0.01
+      - id: SpaceVillainArcadeComputerCircuitboard
+        prob: 0.01
+      - id: BlockGameArcadeComputerCircuitboard
+        prob: 0.01
+      - id: ParticleAcceleratorComputerCircuitboard
+        prob: 0.01
+      - id: MachineParticleAcceleratorEndCapCircuitboard
+        prob: 0.01
+      - id: MachineParticleAcceleratorFuelChamberCircuitboard
+        prob: 0.01
+      - id: MachineParticleAcceleratorPowerBoxCircuitboard
+        prob: 0.01
+      - id: MachineParticleAcceleratorEmitterLeftCircuitboard
+        prob: 0.01
+      - id: MachineParticleAcceleratorEmitterCenterCircuitboard
+        prob: 0.01
+      - id: MachineParticleAcceleratorEmitterRightCircuitboard
+        prob: 0.01
+      - id: PowerCellSmallPrinted
+        prob: 0.3
+      - id: PowerCellMediumPrinted
+        prob: 0.01
+      - id: PowerCellHighPrinted
+        prob: 0.005
+      - id: PowerCellHyperPrinted
+        prob: 0.0002
+      - id: PartRodMetal1
+        amount: 1
+        prob: 0.9
+      - id: PartRodMetal1
+        amount: 2
+        prob: 0.5
+      - id: PartRodMetal1
+        amount: 3
+        prob: 0.2
+      - id: PartRodMetal1
+        amount: 4
+        prob: 0.1
+      - id: SheetSteel1
+        prob: 0.9
+      - id: SheetSteel1
+        amount: 2
+        prob: 0.5
+      - id: SheetSteel1
+        amount: 3
+        prob: 0.2
+      - id: SheetSteel1
+        amount: 4
+        prob: 0.1
+      - id: ShardGlass
+        amount: 2
+        prob: 0.5
+      - id: SheetGlass1
+        prob: 0.3
+      - id: PowerSink
+        prob: 0.001
+      - id: FireExtinguisher
+        prob: 0.01
+      - id: Multitool
+        prob: 0.01
+      - id: ProximitySensor
+        prob: 0.01
+      - id: ClothingHandsGlovesColorYellowBudget
+        prob: 0.1
+      - id: ClothingBeltUtility
+        prob: 0.01
+      - id: ToolboxEmergency
+        prob: 0.01
+      - id: ToolboxMechanical
+        prob: 0.01
+      - id: ToolboxElectrical
+        prob: 0.01
+      - id: ToolboxSyndicate
+        prob: 0.001
+      - id: Wirecutter
+        prob: 0.01
+      - id: Screwdriver
+        prob: 0.01
+      - id: Wrench
+        prob: 0.01
+      - id: Crowbar
+        prob: 0.01
+      - id: Shovel
+        prob: 0.01
+      - id: CableStack
+        prob: 0.01
+      - id: HandLabeler
+        prob: 0.01
+      - id: Welder
+        prob: 0.01

@@ -42,22 +42,6 @@
         prob: 0.001
       - id: ClothingBeltSuspenders
         prob: 0.01
-      - id: ClothingHeadset
-        prob: 0.01
-      - id: ClothingHeadsetCargo
-        prob: 0.01
-      - id: ClothingHeadsetCommand
-        prob: 0.005
-      - id: ClothingHeadsetEngineering
-        prob: 0.01
-      - id: ClothingHeadsetMedicalScience
-        prob: 0.01
-      - id: ClothingHeadsetRobotics
-        prob: 0.01
-      - id: ClothingHeadsetScience
-        prob: 0.01
-      - id: ClothingHeadsetSecurity
-        prob: 0.005
       - id: ClothingHeadsetService
         prob: 0.01
       - id: ClothingEyesHudDiagnostic

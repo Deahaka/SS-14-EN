@@ -26,8 +26,6 @@
         prob: 0.01
       - id: MagazineBoxAntiMaterial
         prob: 0.01
-      - id: BaseMagazineBoxCaselessRifle
-        prob: 0.01
       - id: MagazineBoxCaselessRifle10x24
         prob: 0.01
       - id: MagazineBoxCaselessRifleBig
