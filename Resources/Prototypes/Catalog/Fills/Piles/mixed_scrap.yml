@@ -1,0 +1,1128 @@
+- type: entity
+  parent: BaseScrapPile
+  id: ScrapPileMixed
+  suffix: Mixed
+  desc: Mixed scrap pile
+  components:
+  - type: StorageFill
+    contents:
+      - id: Cigarette
+        prob: 0.001
+      - id: Bola
+        prob: 0.1
+      - id: PowerCellMedium
+        prob: 0.001
+      - id: PartRodMetal1
+        amount: 1
+        prob: 0.9
+      - id: PartRodMetal1
+        amount: 2
+        prob: 0.5
+      - id: PartRodMetal1
+        amount: 3
+        prob: 0.1
+      - id: PartRodMetal1
+        amount: 4
+        prob: 0.05
+      - id: SheetSteel1
+        prob: 0.9
+      - id: ShardGlass
+        prob: 0.6
+      - id: ShardGlass
+        amount: 2
+        prob: 0.3
+      - id: ShardGlass
+        amount: 3
+        prob: 0.1
+      - id: ShardGlass
+        amount: 4
+        prob: 0.05
+      - id: WeaponPistolViper
+        prob: 0.001
+      - id: WeaponRevolverPython
+        prob: 0.001
+      - id: WeaponPistolCobra
+        prob: 0.001
+      - id: EnergySword
+        prob: 0.001
+      - id: EnergyDagger
+        prob: 0.001
+      - id: GrenadeFlashBang
+        prob: 0.001
+      - id: C4
+        prob: 0.001
+      - id: ClothingBackpackDuffelSyndicateC4tBundle
+        prob: 0.001
+      - id: MagazinePistol
+        prob: 0.1
+      - id: MagazinePistolCaselessRifle
+        prob: 0.1
+      - id: SpeedLoaderMagnum
+        prob: 0.1
+      - id: BoxMagazineLightRifle
+        prob: 0.001
+      - id: BoxHoloparasite
+        prob: 0.001
+      - id: ClothingBeltSyndieHolster
+        prob: 0.01
+      - id: Emag
+        prob: 0.01
+      - id: AgentIDCard
+        prob: 0.01
+      - id: JetpackBlack
+        prob: 0.01
+      - id: ClothingHeadsetAltSyndicate
+        prob: 0.01
+      - id: Hypopen
+        prob: 0.01
+      - id: CrateSyndicateSurplusBundle
+        prob: 0.0001
+      - id: CrateSyndicateSuperSurplusBundle
+        prob: 0.00001
+      - id: ToolboxSyndicateFilled
+        prob: 0.001
+      - id: SyndicateJawsOfLife
+        prob: 0.001
+      - id: ClothingBackpackDuffelSyndicateFilledMedical
+        prob: 0.001
+      - id: PowerSink
+        prob: 0.01
+      - id: DehydratedSpaceCarp
+        prob: 0.001
+      - id: GatfruitSeeds
+        prob: 0.001
+      - id: BibleNecronomicon
+        prob: 0.001
+      - id: ClothingShoesChameleonNoSlips
+        prob: 0.1
+      - id: ThievingGloves
+        prob: 0.1
+      - id: ClothingOuterVestWeb
+        prob: 0.01
+      - id: ClothingBackpackDuffelSyndicateHardsuitBundle
+        prob: 0.001
+      - id: ClothingShoesBootsMagSyndie
+        prob: 0.1
+      - id: ClothingBackpackDuffelSyndicateEVABundle
+        prob: 0.001
+      - id: CyberPen
+        prob: 0.001
+      - id: NukeDiskFake
+        prob: 0.01
+      - id: RevolverCapGun
+        prob: 0.001
+      - id: CigPackSyndicate
+        prob: 0.01
+      - id: SoapSyndie
+        prob: 0.01
+      - id: lanternextrabright
+        prob: 0.001
+      - id: HandheldHealthAnalyzerGigacancer
+        prob: 0.001
+      - id: NocturineChemistryBottle
+        prob: 0.001
+      - id: CrateFunSyndicateSegway
+        prob: 0.001
+      - id: RubberStampSyndicate
+        prob: 0.1
+      - id: ClothingHeadHatCatEars
+        prob: 0.001
+      - id: ClothingHeadHatOutlawHat
+        prob: 0.001
+      - id: ClothingBackpackDuffelSyndicatePyjamaBundle
+        prob: 0.001
+      - id: ClothingBackpackDuffelSyndicateCostumeClown
+        prob: 0.001
+      - id: BalloonSyn
+        prob: 0.1
+      - id: PlasmaTank
+        prob: 0.01
+      - id: OrganHumanBrain
+        prob: 0.01
+      - id: FoodMeatCorgi
+        prob: 0.001
+      - id: FoodMeat
+        prob: 0.1
+      - id: ClothingHeadsetCargo
+        prob: 0.01
+      - id: ClothingHeadsetCommand
+        prob: 0.005
+      - id: ClothingHeadsetEngineering
+        prob: 0.01
+      - id: ClothingHeadsetMedicalScience
+        prob: 0.01
+      - id: ClothingHeadsetRobotics
+        prob: 0.01
+      - id: ClothingHeadsetScience
+        prob: 0.01
+      - id: ClothingHeadsetSecurity
+        prob: 0.005
+      - id: ClothingHeadsetService
+        prob: 0.01
+      - id: TimerTrigger
+        prob: 0.01
+      - id: SignalTrigger
+        prob: 0.01
+      - id: CapacitorStockPart
+        prob: 0.01
+      - id: AdvancedCapacitorStockPart
+        prob: 0.01
+      - id: SuperCapacitorStockPart
+        prob: 0.01
+      - id: QuadraticCapacitorStockPart
+        prob: 0.01
+      - id: ScanningModuleStockPart
+        prob: 0.01
+      - id: AdvancedScanningModuleStockPart
+        prob: 0.01
+      - id: PhasicScanningModuleStockPart
+        prob: 0.01
+      - id: TriphasicScanningModuleStockPart
+        prob: 0.01
+      - id: MicroManipulatorStockPart
+        prob: 0.01
+      - id: NanoManipulatorStockPart
+        prob: 0.01
+      - id: PicoManipulatorStockPart
+        prob: 0.01
+      - id: FemtoManipulatorStockPart
+        prob: 0.01
+      - id: MicroLaserStockPart
+        prob: 0.01
+      - id: HighPowerMicroLaserStockPart
+        prob: 0.01
+      - id: UltraHighPowerMicroLaserStockPart
+        prob: 0.01
+      - id: QuadUltraMicroLaserStockPart
+        prob: 0.01
+      - id: MatterBinStockPart
+        prob: 0.01
+      - id: AdvancedMatterBinStockPart
+        prob: 0.01
+      - id: SuperMatterBinStockPart
+        prob: 0.01
+      - id: BluespaceMatterBinStockPart
+        prob: 0.01
+      - id: AnsibleSubspaceStockPart
+        prob: 0.01
+      - id: FilterSubspaceStockPart
+        prob: 0.01
+      - id: AmplifierSubspaceStockPart
+        prob: 0.01
+      - id: TreatmentSubspaceStockPart
+        prob: 0.01
+      - id: AnalyzerSubspaceStockPart
+        prob: 0.01
+      - id: CrystalSubspaceStockPart
+        prob: 0.01
+      - id: TransmitterSubspaceStockPart
+        prob: 0.01
+      - id: FirelockElectronics
+        prob: 0.01
+      - id: SolarTrackerElectronics
+        prob: 0.01
+      - id: AutolatheMachineCircuitboard
+        prob: 0.01
+      - id: ProtolatheMachineCircuitboard
+        prob: 0.01
+      - id: APCElectronics
+        prob: 0.01
+      - id: DoorElectronics
+        prob: 0.01
+      - id: SupplyComputerCircuitboard
+        prob: 0.01
+      - id: SupplyRequestComputerCircuitboard
+        prob: 0.01
+      - id: ResearchComputerCircuitboard
+        prob: 0.01
+      - id: IDComputerCircuitboard
+        prob: 0.01
+      - id: BodyScannerComputerCircuitboard
+        prob: 0.01
+      - id: CommsComputerCircuitboard
+        prob: 0.01
+      - id: SolarControlComputerCircuitboard
+        prob: 0.01
+      - id: SpaceVillainArcadeComputerCircuitboard
+        prob: 0.01
+      - id: BlockGameArcadeComputerCircuitboard
+        prob: 0.01
+      - id: ParticleAcceleratorComputerCircuitboard
+        prob: 0.01
+      - id: MachineParticleAcceleratorEndCapCircuitboard
+        prob: 0.01
+      - id: MachineParticleAcceleratorFuelChamberCircuitboard
+        prob: 0.01
+      - id: MachineParticleAcceleratorPowerBoxCircuitboard
+        prob: 0.01
+      - id: MachineParticleAcceleratorEmitterLeftCircuitboard
+        prob: 0.01
+      - id: MachineParticleAcceleratorEmitterCenterCircuitboard
+        prob: 0.01
+      - id: MachineParticleAcceleratorEmitterRightCircuitboard
+        prob: 0.01
+      - id: PowerCellSmallPrinted
+        prob: 0.3
+      - id: PowerCellMediumPrinted
+        prob: 0.01
+      - id: PowerCellHighPrinted
+        prob: 0.005
+      - id: PowerCellHyperPrinted
+        prob: 0.0002
+      - id: PowerSink
+        prob: 0.001
+      - id: FireExtinguisher
+        prob: 0.01
+      - id: Multitool
+        prob: 0.01
+      - id: ProximitySensor
+        prob: 0.01
+      - id: ClothingHandsGlovesColorYellowBudget
+        prob: 0.1
+      - id: ClothingBeltUtility
+        prob: 0.01
+      - id: ToolboxEmergency
+        prob: 0.01
+      - id: ToolboxMechanical
+        prob: 0.01
+      - id: ToolboxElectrical
+        prob: 0.01
+      - id: ToolboxSyndicate
+        prob: 0.001
+      - id: Wirecutter
+        prob: 0.01
+      - id: Screwdriver
+        prob: 0.01
+      - id: Wrench
+        prob: 0.01
+      - id: Crowbar
+        prob: 0.01
+      - id: Shovel
+        prob: 0.01
+      - id: CableStack
+        prob: 0.01
+      - id: HandLabeler
+        prob: 0.01
+      - id: Welder
+        prob: 0.01
+      - id: MedkitBurn
+        prob: 0.01
+      - id: MedkitToxin
+        prob: 0.01
+      - id: MedkitO2
+        prob: 0.01
+      - id: MedkitBrute
+        prob: 0.01
+      - id: MedkitAdvanced
+        prob: 0.01
+      - id: MedkitCombat
+        prob: 0.001
+      - id: Cautery
+        prob: 0.25
+      - id: Drill
+        prob: 0.01
+      - id: Scalpel
+        prob: 0.25
+      - id: ScalpelShiv
+        prob: 0.01
+      - id: Retractor
+        prob: 0.25
+      - id: Hemostat
+        prob: 0.25
+      - id: Saw
+        prob: 0.01
+      - id: HandheldHealthAnalyzer
+        prob: 0.4
+      - id: Ointment
+        prob: 0.01
+      - id: Brutepack
+        prob: 0.01
+      - id: Gauze
+        prob: 0.01
+      - id: PillDexalin
+        prob: 0.01
+      - id: DiseaseSwab
+        prob: 0.4
+      - id: HandheldCrewMonitor
+        prob: 0.001
+      - id: SyringeSpaceacillin
+        prob: 0.01
+      - id: SyringeInaprovaline
+        prob: 0.01
+      - id: PillTricordrazine
+        prob: 0.01
+      - id: PillSpaceDrugs
+        prob: 0.001
+      - id: UniformScrubsColorPurple
+        prob: 0.01
+      - id: UniformScrubsColorGreen
+        prob: 0.01
+      - id: UniformScrubsColorBlue
+        prob: 0.01
+      - id: MaterialWoodPlank1
+        amount: 1
+        prob: 0.6
+      - id: MaterialWoodPlank1
+        amount: 2
+        prob: 0.3
+      - id: MaterialWoodPlank1
+        amount: 3
+        prob: 0.1
+      - id: MaterialWoodPlank1
+        amount: 4
+        prob: 0.01
+      - id: SheetGlass1
+        prob: 0.3
+      - id: SheetPlastic1
+        amount: 4
+        prob: 0.4
+      - id: SheetPlasteel1
+        prob: 0.1
+      - id: WeaponLaserGun
+        prob: 0.001
+      - id: WeaponLaserCarbine
+        prob: 0.001
+      - id: WeaponPulsePistol
+        prob: 0.001
+      - id: WeaponPulseCarbine
+        prob: 0.001
+      - id: WeaponPulseRifle
+        prob: 0.001
+      - id: WeaponXrayCannon
+        prob: 0.001
+      - id: WeaponDisabler
+        prob: 0.005
+      - id: WeaponTaser
+        prob: 0.005
+      - id: WeaponAntiqueLaser
+        prob: 0.001
+      - id: MagazineBoxAntiMaterial
+        prob: 0.01
+      - id: MagazineBoxCaselessRifle10x24
+        prob: 0.01
+      - id: MagazineBoxCaselessRifleBig
+        prob: 0.01
+      - id: MagazineBoxCaselessRifleBigRubber
+        prob: 0.01
+      - id: MagazineBoxCaselessRifle
+        prob: 0.01
+      - id: MagazineBoxCaselessRifleHighVelocity
+        prob: 0.01
+      - id: MagazineBoxCaselessRiflePractice
+        prob: 0.01
+      - id: MagazineBoxCaselessRifleRubber
+        prob: 0.01
+      - id: MagazineBoxLightRifleBig
+        prob: 0.01
+      - id: MagazineBoxLightRifle
+        prob: 0.01
+      - id: MagazineBoxLightRifleHighVelocity
+        prob: 0.01
+      - id: MagazineBoxLightRiflePractice
+        prob: 0.01
+      - id: MagazineBoxLightRifleRubber
+        prob: 0.01
+      - id: MagazineBoxMagnum
+        prob: 0.01
+      - id: MagazineBoxMagnumHighVelocity
+        prob: 0.01
+      - id: MagazineBoxMagnumPractice
+        prob: 0.01
+      - id: MagazineBoxMagnumRubber
+        prob: 0.01
+      - id: MagazineBoxPistol
+        prob: 0.01
+      - id: MagazineBoxPistolHighVelocity
+        prob: 0.01
+      - id: MagazineBoxPistolPractice
+        prob: 0.01
+      - id: MagazineBoxPistolRubber
+        prob: 0.01
+      - id: MagazineBoxRifleBig
+        prob: 0.01
+      - id: MagazineBoxRifleBigRubber
+        prob: 0.01
+      - id: MagazineBoxRifle
+        prob: 0.01
+      - id: MagazineBoxRifleHighVelocity
+        prob: 0.01
+      - id: MagazineBoxRiflePractice
+        prob: 0.01
+      - id: MagazineBoxRifleRubber
+        prob: 0.01
+      - id: BoxCartridgeCap
+        prob: 0.01
+      - id: BoxDonkSoftBox
+        prob: 0.01
+      - id: CartridgeCap
+        prob: 0.01
+      - id: CartridgeAntiMaterial
+        prob: 0.01
+      - id: CartridgeCaselessRifle
+        prob: 0.01
+      - id: CartridgeCaselessRifleHighVelocity
+        prob: 0.01
+      - id: CartridgeCaselessRiflePractice
+        prob: 0.01
+      - id: CartridgeCaselessRifleRubber
+        prob: 0.01
+      - id: CartridgeMinigun
+        prob: 0.01
+      - id: CartridgeLightRifle
+        prob: 0.01
+      - id: CartridgeLightRifleHighVelocity
+        prob: 0.01
+      - id: CartridgeLightRiflePractice
+        prob: 0.01
+      - id: CartridgeLightRifleRubber
+        prob: 0.01
+      - id: CartridgeMagnum
+        prob: 0.01
+      - id: CartridgeMagnumHighVelocity
+        prob: 0.01
+      - id: CartridgeMagnumPractice
+        prob: 0.01
+      - id: CartridgeMagnumRubber
+        prob: 0.01
+      - id: CartridgePistol
+        prob: 0.01
+      - id: CartridgePistolHighVelocity
+        prob: 0.01
+      - id: CartridgePistolPractice
+        prob: 0.01
+      - id: CartridgePistolRubber
+        prob: 0.01
+      - id: CartridgeRifle
+        prob: 0.01
+      - id: CartridgeRifleHighVelocity
+        prob: 0.01
+      - id: CartridgeRiflePractice
+        prob: 0.01
+      - id: CartridgeRifleRubber
+        prob: 0.01
+      - id: ShellShotgunBeanbag
+        prob: 0.01
+      - id: ShellShotgunSlug
+        prob: 0.01
+      - id: ShellShotgunFlare
+        prob: 0.01
+      - id: ShellShotgun
+        prob: 0.01
+      - id: ShellShotgunPractice
+        prob: 0.01
+      - id: ShellTranquilizer
+        prob: 0.01
+      - id: MagazineCaselessRifle10x24
+        prob: 0.01
+      - id: MagazinePistolCaselessRifleHighVelocity
+        prob: 0.01
+      - id: MagazinePistolCaselessRiflePractice
+        prob: 0.01
+      - id: MagazinePistolCaselessRifleRubber
+        prob: 0.01
+      - id: MagazineCaselessRifle
+        prob: 0.01
+      - id: MagazineCaselessRifleHighVelocity
+        prob: 0.01
+      - id: MagazineCaselessRiflePractice
+        prob: 0.01
+      - id: MagazineCaselessRifleRubber
+        prob: 0.01
+      - id: MagazineCaselessRifleShort
+        prob: 0.01
+      - id: MagazineCaselessRifleShortHighVelocity
+        prob: 0.01
+      - id: MagazineCaselessRifleShortPractice
+        prob: 0.01
+      - id: MagazineCaselessRifleShortRubber
+        prob: 0.01
+      - id: MagazineShotgun
+        prob: 0.01
+      - id: MagazineShotgunBeanbag
+        prob: 0.01
+      - id: MagazineShotgunSlug
+        prob: 0.01
+      - id: MagazineShotgunIncendiary
+        prob: 0.01
+      - id: MagazineLightRifleBox
+        prob: 0.01
+      - id: MagazineLightRifle
+        prob: 0.01
+      - id: MagazineLightRifleHighVelocity
+        prob: 0.01
+      - id: MagazineLightRiflePractice
+        prob: 0.01
+      - id: MagazineLightRifleRubber
+        prob: 0.01
+      - id: MagazineLightRifleMaxim
+        prob: 0.01
+      - id: MagazineLightRiflePkBox
+        prob: 0.01
+      - id: MagazineMagnum
+        prob: 0.01
+      - id: MagazineMagnumHighVelocity
+        prob: 0.01
+      - id: MagazineMagnumPractice
+        prob: 0.01
+      - id: MagazineMagnumRubber
+        prob: 0.01
+      - id: MagazineMagnumSubMachineGun
+        prob: 0.01
+      - id: MagazineMagnumSubMachineGunHighVelocity
+        prob: 0.01
+      - id: MagazineMagnumSubMachineGunPractice
+        prob: 0.01
+      - id: MagazineMagnumSubMachineGunRubber
+        prob: 0.01
+      - id: MagazinePistolCalicoTopMounted
+        prob: 0.01
+      - id: MagazinePistolSubMachineGunTopMounted
+        prob: 0.01
+      - id: MagazinePistol
+        prob: 0.01
+      - id: MagazinePistolHighVelocity
+        prob: 0.01
+      - id: MagazinePistolPractice
+        prob: 0.01
+      - id: MagazinePistolRubber
+        prob: 0.01
+      - id: MagazinePistolHighCapacity
+        prob: 0.01
+      - id: MagazinePistolHighCapacityHighVelocity
+        prob: 0.01
+      - id: MagazinePistolHighCapacityPractice
+        prob: 0.01
+      - id: MagazinePistolHighCapacityRubber
+        prob: 0.01
+      - id: MagazinePistolSubMachineGun
+        prob: 0.01
+      - id: MagazinePistolSubMachineGunHighVelocity
+        prob: 0.01
+      - id: MagazinePistolSubMachineGunPractice
+        prob: 0.01
+      - id: MagazinePistolSubMachineGunRubber
+        prob: 0.01
+      - id: MagazineRifle
+        prob: 0.01
+      - id: MagazineRifleHighVelocity
+        prob: 0.01
+      - id: MagazineRiflePractice
+        prob: 0.01
+      - id: MagazineRifleRubber
+        prob: 0.01
+      - id: SpeedLoaderCap
+        prob: 0.01
+      - id: SpeedLoaderLightRifle
+        prob: 0.01
+      - id: SpeedLoaderPistol
+        prob: 0.01
+      - id: SpeedLoaderPistolHighVelocity
+        prob: 0.01
+      - id: SpeedLoaderPistolPractice
+        prob: 0.01
+      - id: SpeedLoaderPistolRubber
+        prob: 0.01
+      - id: SpeedLoaderMagnum
+        prob: 0.01
+      - id: SpeedLoaderMagnumHighVelocity
+        prob: 0.01
+      - id: SpeedLoaderMagnumPractice
+        prob: 0.01
+      - id: SpeedLoaderMagnumRubber
+        prob: 0.01
+      - id: CartridgeRocket
+        prob: 0.01
+      - id: CartridgeRocketSlow
+        prob: 0.01
+      - id: WeaponPistolCobra
+        prob: 0.001
+      - id: WeaponPistolViper
+        prob: 0.001
+      - id: WeaponPistolMk58
+        prob: 0.001
+      - id: WeaponRevolverDeckard
+        prob: 0.001
+      - id: WeaponRevolverInspector
+        prob: 0.001
+      - id: WeaponRevolverMateba
+        prob: 0.001
+      - id: WeaponRevolverPython
+        prob: 0.001
+      - id: WeaponRevolverPirate
+        prob: 0.001
+      - id: WeaponRifleAk
+        prob: 0.001
+      - id: WeaponRifleLecter
+        prob: 0.001
+      - id: WeaponSubMachineGunAtreides
+        prob: 0.001
+      - id: WeaponSubMachineGunC20r
+        prob: 0.001
+      - id: WeaponSubMachineGunVector
+        prob: 0.001
+      - id: WeaponSubMachineGunWt550
+        prob: 0.001
+      - id: WeaponSubMachineGunVectorRubber
+        prob: 0.005
+      - id: WeaponShotgunBulldog
+        prob: 0.001
+      - id: WeaponShotgunDoubleBarreled
+        prob: 0.005
+      - id: WeaponShotgunEnforcer
+        prob: 0.001
+      - id: WeaponShotgunKammerer
+        prob: 0.001
+      - id: WeaponShotgunSawn
+        prob: 0.001
+      - id: WeaponSniperMosin
+        prob: 0.001
+      - id: WeaponSniperHristov
+        prob: 0.001
+      - id: Musket
+        prob: 0.001
+      - id: WeaponPistolFlintlock
+        prob: 0.001
+      - id: WeaponFlareGun
+        prob: 0.5
+      - id: C4
+        prob: 0.01
+      - id: EnergySword
+        prob: 0.001
+      - id: EnergyDagger
+        prob: 0.001
+      - id: Bola
+        prob: 0.2
+      - id: ClusterBang
+        prob: 0.01
+      - id: ClusterBangFull
+        prob: 0.01
+      - id: PowerCellMedium
+        prob: 0.01
+      - id: PowerCellHigh
+        prob: 0.005
+      - id: PowerCellHyper
+        prob: 0.0002
+      - id: FoodPlate
+        prob: 0.8
+      - id: FoodPlateTrash
+        prob: 0.8
+      - id: FoodPlateSmall
+        prob: 0.8
+      - id: FoodPlateSmallTrash
+        prob: 0.8
+      - id: FoodPlateTin
+        prob: 0.8
+      - id: FoodBoxDonut
+        prob: 0.01
+      - id: FoodContainerEgg
+        prob: 0.01
+      - id: EggBoxBroken
+        prob: 0.8
+      - id: DrinkGlass
+        prob: 0.8
+      - id: DrinkShotGlass
+        prob: 0.8
+      - id: DrinkAbsintheBottleFull
+        prob: 0.01
+      - id: DrinkBlueCuracaoBottleFull
+        prob: 0.01
+      - id: DrinkCognacBottleFull
+        prob: 0.01
+      - id: DrinkGrenadineBottleFull
+        prob: 0.01
+      - id: DrinkGinBottleFull
+        prob: 0.01
+      - id: DrinkGoldschlagerBottleFull
+        prob: 0.01
+      - id: DrinkKahluaBottleFull
+        prob: 0.01
+      - id: DrinkMelonLiquorBottleFull
+        prob: 0.01
+      - id: DrinkPatronBottleFull
+        prob: 0.01
+      - id: DrinkRumBottleFull
+        prob: 0.01
+      - id: DrinkTequilaBottleFull
+        prob: 0.01
+      - id: DrinkVermouthBottleFull
+        prob: 0.01
+      - id: DrinkVodkaBottleFull
+        prob: 0.01
+      - id: DrinkWhiskeyBottleFull
+        prob: 0.01
+      - id: DrinkWineBottleFull
+        prob: 0.01
+      - id: DrinkBeer
+        prob: 0.01
+      - id: DrinkAleBottleFull
+        prob: 0.01
+      - id: DrinkSoyMilkCarton
+        prob: 0.01
+      - id: DrinkMilkCarton
+        prob: 0.01
+      - id: DrinkCreamCarton
+        prob: 0.01
+      - id: DrinkJuiceTomatoCarton
+        prob: 0.01
+      - id: DrinkJuiceOrangeCarton
+        prob: 0.01
+      - id: DrinkJuiceLimeCarton
+        prob: 0.01
+      - id: DrinkWaterBottleFull
+        prob: 0.5
+      - id: FoodPizzaMargheritaSlice
+        prob: 0.01
+      - id: FoodPizzaMeatSlice
+        prob: 0.01
+      - id: FoodPizzaMushroomSlice
+        prob: 0.01
+      - id: FoodPizzaVegetableSlice
+        prob: 0.01
+      - id: FoodPizzaDonkpocketSlice
+        prob: 0.01
+      - id: FoodPizzaDankSlice
+        prob: 0.01
+      - id: FoodPizzaSassysageSlice
+        prob: 0.01
+      - id: FoodPizzaPineappleSlice
+        prob: 0.01
+      - id: FoodPizzaMoldySlice
+        prob: 0.01
+      - id: FoodMeatKebab
+        prob: 0.01
+      - id: FoodMeatRatKebab
+        prob: 0.01
+      - id: FoodBreadMeatSlice
+        prob: 0.01
+      - id: DrinkPoisonWinebottleFull
+        prob: 0.001
+      - id: ClothingBackpack
+        prob: 0.01
+      - id: ClothingBackpackClown
+        prob: 0.01
+      - id: ClothingBackpackSecurity
+        prob: 0.005
+      - id: ClothingBackpackEngineering
+        prob: 0.01
+      - id: ClothingBackpackMedical
+        prob: 0.01
+      - id: ClothingBackpackCaptain
+        prob: 0.01
+      - id: ClothingBackpackMime
+        prob: 0.01
+      - id: ClothingBackpackHydroponics
+        prob: 0.01
+      - id: ClothingBackpackDuffel
+        prob: 0.01
+      - id: ClothingBackpackDuffelSecurity
+        prob: 0.005
+      - id: ClothingBackpackDuffelSyndicate
+        prob: 0.001
+      - id: ClothingBackpackSatchelSecurity
+        prob: 0.005
+      - id: ClothingBackpackSatchelEngineering
+        prob: 0.01
+      - id: ClothingBeltUtility
+        prob: 0.01
+      - id: ClothingBeltAssault
+        prob: 0.001
+      - id: ClothingBeltSecurity
+        prob: 0.01
+      - id: ClothingBeltMilitaryWebbing
+        prob: 0.001
+      - id: ClothingBeltSuspenders
+        prob: 0.01
+      - id: ClothingHeadsetService
+        prob: 0.01
+      - id: ClothingEyesHudDiagnostic
+        prob: 0.01
+      - id: ClothingEyesHudMedical
+        prob: 0.01
+      - id: ClothingEyesHudSecurity
+        prob: 0.01
+      - id: ClothingEyesGlassesGarGiga
+        prob: 0.01
+      - id: ClothingEyesGlassesMeson
+        prob: 0.01
+      - id: ClothingEyesGlasses
+        prob: 0.01
+      - id: ClothingEyesGlassesSunglasses
+        prob: 0.005
+      - id: ClothingEyesGlassesSecurity
+        prob: 0.005
+      - id: ClothingEyesGlassesThermal
+        prob: 0.001
+      - id: ClothingHandsGlovesBoxingRed
+        prob: 0.01
+      - id: ClothingHandsGlovesCaptain
+        prob: 0.005
+      - id: ClothingHandsGlovesIhscombat
+        prob: 0.005
+      - id: ClothingHandsGlovesLatex
+        prob: 0.01
+      - id: ClothingHandsGlovesNitrile
+        prob: 0.01
+      - id: ClothingHandsGlovesLeather
+        prob: 0.01
+      - id: ClothingHandsGlovesPowerglove
+        prob: 0.01
+      - id: ClothingHandsGlovesSpaceNinja
+        prob: 0.001
+      - id: ClothingHandsGlovesCombat
+        prob: 0.001
+      - id: ClothingHandsGlovesFingerless
+        prob: 0.01
+      - id: ClothingHandsGlovesColorYellowBudget
+        prob: 0.2
+      - id: ClothingHandsGlovesColorYellow
+        prob: 0.001
+      - id: ClothingHandsGlovesColorWhite
+        prob: 0.01
+      - id: ClothingHeadHatAnimalMonkey
+        prob: 0.01
+      - id: ClothingHeadHatAnimalCat
+        prob: 0.01
+      - id: HatBandBlack
+        prob: 0.01
+      - id: HatBandGold
+        prob: 0.01
+      - id: HatBandBotany
+        prob: 0.01
+      - id: HatBandSkull
+        prob: 0.01
+      - id: ClothingHeadHatWelding
+        prob: 0.01
+      - id: ClothingHeadHatCargosoft
+        prob: 0.01
+      - id: ClothingHeadHatGreysoftFlipped
+        prob: 0.01
+      - id: ClothingHeadHatOrangesoft
+        prob: 0.01
+      - id: ClothingHeadHatSecsoft
+        prob: 0.005
+      - id: ClothingHeadHatCake
+        prob: 0.01
+      - id: ClothingHeadHatBunny
+        prob: 0.01
+      - id: ClothingHeadHatChickenhead
+        prob: 0.01
+      - id: ClothingHeadHatRichard
+        prob: 0.01
+      - id: ClothingHeadHatCone
+        prob: 0.01
+      - id: ClothingHeadHatHoodBioGeneral
+        prob: 0.01
+      - id: ClothingHeadHatHoodBioVirology
+        prob: 0.01
+      - id: ClothingHeadHatHoodRad
+        prob: 0.01
+      - id: ClothingHeadHelmetBombSuit
+        prob: 0.005
+      - id: ClothingHeadHelmetCosmonaut
+        prob: 0.005
+      - id: ClothingHeadHelmetHelmetOld
+        prob: 0.005
+      - id: ClothingHeadHelmetRiot
+        prob: 0.005
+      - id: ClothingHeadHelmetScaf
+        prob: 0.005
+      - id: ClothingHeadHelmetSpaceNinja
+        prob: 0.001
+      - id: ClothingHeadHelmetSyndicate
+        prob: 0.001
+      - id: ClothingHeadHelmetThunderdome
+        prob: 0.005
+      - id: ClothingHeadHelmetWizardHelm
+        prob: 0.001
+      - id: ClothingHeadHelmetFire
+        prob: 0.005
+      - id: ClothingHeadHelmetAtmosFire
+        prob: 0.005
+      - id: ClothingHeadHatHardhatBlue
+        prob: 0.01
+      - id: ClothingHeadHatHardhatOrange
+        prob: 0.01
+      - id: ClothingHeadHatHardhatRed
+        prob: 0.01
+      - id: ClothingHeadHatHardhatWhite
+        prob: 0.01
+      - id: ClothingHeadHatHardhatYellow
+        prob: 0.01
+      - id: ClothingHeadHatBeretHoS
+        prob: 0.005
+      - id: ClothingHeadHatBeretEngineering
+        prob: 0.01
+      - id: ClothingHeadHatBeretWarden
+        prob: 0.005
+      - id: ClothingHeadHatBowlerHat
+        prob: 0.01
+      - id: ClothingHeadHatCaptain
+        prob: 0.005
+      - id: ClothingHeadHatChef
+        prob: 0.01
+      - id: ClothingHeadHatFez
+        prob: 0.01
+      - id: ClothingHeadHatHoshat
+        prob: 0.005
+      - id: ClothingHeadHatWitch1
+        prob: 0.005
+      - id: ClothingHeadHatSombrero
+        prob: 0.01
+      - id: ClothingHeadHatTophat
+        prob: 0.01
+      - id: ClothingHeadHatUshanka
+        prob: 0.01
+      - id: ClothingHeadHatWarden
+        prob: 0.005
+      - id: ClothingMaskGas
+        prob: 0.01
+      - id: ClothingMaskGasSecurity
+        prob: 0.005
+      - id: ClothingMaskGasSyndicate
+        prob: 0.001
+      - id: ClothingMaskGasAtmos
+        prob: 0.01
+      - id: ClothingMaskGasCaptain
+        prob: 0.01
+      - id: ClothingMaskBreathMedical
+        prob: 0.01
+      - id: ClothingMaskClown
+        prob: 0.01
+      - id: ClothingMaskMime
+        prob: 0.01
+      - id: ClothingMaskSterile
+        prob: 0.01
+      - id: ClothingMaskMuzzle
+        prob: 0.01
+      - id: ClothingNeckScarfStripedRed
+        prob: 0.01
+      - id: ClothingNeckScarfStripedBlue
+        prob: 0.01
+      - id: ClothingNeckScarfStripedGreen
+        prob: 0.01
+      - id: ClothingNeckScarfStripedZebra
+        prob: 0.01
+      - id: ClothingNeckTieRed
+        prob: 0.01
+      - id: ClothingNeckTieDet
+        prob: 0.01
+      - id: ClothingNeckStethoscope
+        prob: 0.01
+      - id: ClothingOuterBioVirology
+        prob: 0.01
+      - id: ClothingOuterCoatLab
+        prob: 0.01
+      - id: ClothingOuterCoatWarden
+        prob: 0.01
+      - id: ClothingOuterHardsuitEngineering
+        prob: 0.001
+      - id: ClothingOuterHardsuitSyndicate
+        prob: 0.001
+      - id: ClothingOuterHardsuitSecurity
+        prob: 0.001
+      - id: ClothingOuterHardsuitSecurityRed
+        prob: 0.001
+      - id: ClothingOuterHardsuitSyndie
+        prob: 0.001
+      - id: ClothingOuterApron
+        prob: 0.01
+      - id: ClothingOuterApronBotanist
+        prob: 0.01
+      - id: ClothingOuterApronChef
+        prob: 0.01
+      - id: ClothingOuterJacketChef
+        prob: 0.01
+      - id: ClothingOuterHoodieChaplain
+        prob: 0.01
+      - id: ClothingOuterPonchoClassic
+        prob: 0.01
+      - id: ClothingOuterSuitBomb
+        prob: 0.001
+      - id: ClothingOuterSuitFire
+        prob: 0.01
+      - id: ClothingOuterSuitRad
+        prob: 0.01
+      - id: ClothingOuterSuitSpaceninja
+        prob: 0.001
+      - id: ClothingOuterSuitChicken
+        prob: 0.01
+      - id: ClothingOuterSuitAtmosFire
+        prob: 0.01
+      - id: ClothingOuterVest
+        prob: 0.01
+      - id: ClothingShoesBootsWork
+        prob: 0.01
+      - id: ClothingShoesBootsJack
+        prob: 0.01
+      - id: ClothingShoesColorBlack
+        prob: 0.01
+      - id: ClothingShoesColorBrown
+        prob: 0.01
+      - id: ClothingShoesColorOrange
+        prob: 0.01
+      - id: ClothingShoesColorRed
+        prob: 0.01
+      - id: ClothingShoesColorWhite
+        prob: 0.01
+      - id: ClothingShoesColorYellow
+        prob: 0.01
+      - id: ClothingShoesBootsMag
+        prob: 0.005
+      - id: ClothingShoesBootsMagSyndie
+        prob: 0.001
+      - id: ClothingShoesFlippers
+        prob: 0.01
+      - id: ClothingShoesLeather
+        prob: 0.01
+      - id: ClothingShoesSlippers
+        prob: 0.01
+      - id: ClothingShoeSlippersDuck
+        prob: 0.01
+      - id: ClothingShoesTourist
+        prob: 0.01
+      - id: ClothingShoesClown
+        prob: 0.01
+      - id: ClothingShoesGaloshes
+        prob: 0.01
+      - id: ClothingShoesSpaceNinja
+        prob: 0.01
+      - id: ClothingShoesChameleonNoSlips
+        prob: 0.001
+      - id: UniformScrubsColorGreen
+        prob: 0.01
+      - id: ClothingUniformJumpsuitColorGrey
+        prob: 0.01
+      - id: ClothingUniformJumpsuitChaplain
+        prob: 0.01
+      - id: ClothingUniformJumpsuitClown
+        prob: 0.01
+      - id: ClothingUniformJumpsuitEngineering
+        prob: 0.01
+      - id: ClothingUniformJumpsuitHydroponics
+        prob: 0.01
+      - id: ClothingUniformJumpsuitJanitor
+        prob: 0.01
+      - id: ClothingUniformJumpsuitMedicalDoctor
+        prob: 0.01
+      - id: ClothingUniformJumpsuitMime
+        prob: 0.01
+      - id: ClothingUniformJumpsuitScientist
+        prob: 0.01
+      - id: ClothingUniformJumpsuitSec
+        prob: 0.005
+      - id: ClothingUniformJumpsuitWarden
+        prob: 0.005
+      - id: ClothingUniformJumpsuitColorOrange
+        prob: 0.01
+      - id: ClothingUniformJumpsuitColorLightBrown
+        prob: 0.01
+      - id: ClothingUniformJumpsuitColorBrown
+        prob: 0.01
+      - id: ClothingUniformColorRainbow
+        prob: 0.01
+      - id: ClothingUniformOveralls
+        prob: 0.01
+      - id: ClothingUniformJumpsuitNanotrasen
+        prob: 0.01
+      - id: ClothingUniformJumpsuitOperative
+        prob: 0.001
