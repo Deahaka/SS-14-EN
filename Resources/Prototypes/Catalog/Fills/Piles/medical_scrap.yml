@@ -1,7 +1,7 @@
 - type: entity
-  parent: BaseScrapPile
+  parent: MedScrapPile
   id: ScrapPileMedical
-  suffix: Medical #TODO уменьшить говна
+  suffix: Medical
   desc: amongus
   components:
   - type: StorageFill

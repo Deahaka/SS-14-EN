@@ -14,6 +14,7 @@
   - type: Sprite
     sprite: Structures/Storage/Scrap/piles.rsi
     layers:
+    - state: base_big
     - state: base_underlay
     - state: industrial_trash
     netsync: false
@@ -61,27 +62,124 @@
   id: IndustrialScrapPile
   name: industrial pile
   description: Pile of used machinery. You could use tools from this to build something.
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: Structures/Storage/Scrap/piles.rsi
+    layers:
+    - state: base_big
+    - state: base_underlay
+    - state: industrial_trash
+    netsync: false
+    noRot: true
 
 - type: entity
   parent: BaseScrapPile
   id: ClothScrapPile
   name: cloth pile
   description: Pile of second hand clothing for charity.
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: Structures/Storage/Scrap/piles.rsi
+    layers:
+    - state: base_big
+    - state: base_underlay
+    - state: cloth_trash
+    netsync: false
+    noRot: true
 
 - type: entity
   parent: BaseScrapPile
   id: SyndieScrapPile
   name: strange pile
   description: Pile of left magbots, broken teleports and phoron tanks, jetpacks, random stations blueprints, soap, burned rcds, and meat with orange fur?.
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: Structures/Storage/Scrap/piles.rsi
+    layers:
+    - state: base_big
+    - state: base_underlay
+    - state: syndie_trash
+    netsync: false
+    noRot: true
 
 - type: entity
   parent: BaseScrapPile
   id: ScienceScrapPile
   name: scientific trash pile
   description: Pile of refuse from research department.
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: Structures/Storage/Scrap/piles.rsi
+    layers:
+    - state: base_big
+    - state: base_underlay
+    - state: science_trash
+    netsync: false
+    noRot: true
 
 - type: entity
   parent: BaseScrapPile
-  id: ClothScrapPile
-  name: cloth pile
+  id: GunScrapPile
+  name: gun refuse pile
   description: Pile of military supply refuse. Who thought it was a clever idea to throw that out?.
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: Structures/Storage/Scrap/piles.rsi
+    layers:
+    - state: base_big
+    - state: base_underlay
+    - state: gun_trash
+    netsync: false
+    noRot: true
+
+- type: entity
+  parent: BaseScrapPile
+  id: MedScrapPile
+  name: medical refuse pile
+  description: Pile of medical refuse. They sure don't cut expenses on these.
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: Structures/Storage/Scrap/piles.rsi
+    layers:
+    - state: base_big
+    - state: base_underlay
+    - state: med_trash
+    netsync: false
+    noRot: true
+
+- type: entity
+  parent: BaseScrapPile
+  id: FoodScrapPile
+  name: food trash pile
+  description: Pile of thrown away food. Someone sure have lots of spare food while children on Mars are starving.
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: Structures/Storage/Scrap/piles.rsi
+    layers:
+    - state: base_big
+    - state: base_underlay
+    - state: food_trash
+    netsync: false
+    noRot: true
+
+- type: entity
+  parent: BaseScrapPile
+  id: MixedScrapPile
+  name: mixed pile
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: Structures/Storage/Scrap/piles.rsi
+    layers:
+    - state: base_big
+    - state: base_underlay
+    - state: mixed_trash
+    netsync: false
+    noRot: true

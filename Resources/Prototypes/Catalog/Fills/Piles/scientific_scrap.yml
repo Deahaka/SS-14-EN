@@ -1,5 +1,5 @@
 - type: entity
-  parent: BaseScrapPile
+  parent: ScienceScrapPile
   id: ScrapPileScientific
   suffix: Scientific
   desc: amongus

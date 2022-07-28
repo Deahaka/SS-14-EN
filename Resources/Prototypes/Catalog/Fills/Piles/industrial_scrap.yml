@@ -1,5 +1,5 @@
 - type: entity
-  parent: BaseScrapPile
+  parent: IndustrialScrapPile
   id: ScrapPileIndustrial
   suffix: Industrial
   desc: amongus

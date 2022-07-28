@@ -1,5 +1,5 @@
 - type: entity
-  parent: BaseScrapPile
+  parent: GunScrapPile
   id: ScrapPileGun
   suffix: Gun #TODO уменьшить говна
   desc: amongus

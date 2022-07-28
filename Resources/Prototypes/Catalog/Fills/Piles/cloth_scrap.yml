@@ -1,7 +1,7 @@
 - type: entity
-  parent: BaseScrapPile
+  parent: ClothScrapPile
   id: ScrapPileCloth
-  suffix: Cloth #TODO дать что-то "базовое"
+  suffix: Cloth
   desc: amongus
   components:
   - type: StorageFill
