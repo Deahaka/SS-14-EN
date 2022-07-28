@@ -1,0 +1,23 @@
+- type: entity
+  name: Scrap Pile Spawner
+  id: ScrapPileSpawner
+  suffix: Random
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      layers:
+        - state: red
+        - texture: Structures/Storage/Scrap/piles.rsi/base_underlay.png
+    - type: RandomSpawner
+      prototypes:
+        - ScrapPileCloth
+        - ScrapPileFood
+        - ScrapPileIndustrial
+        - ScrapPileMedical
+        - ScrapPileMixed
+        - ScrapPileScientific
+      chance: 0.7
+      rarePrototypes:
+        - ScrapPileGun
+        - ScrapPileSyndie
+      rareChance: 0.1
