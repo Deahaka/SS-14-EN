@@ -2,7 +2,8 @@
   parent: BaseStructure
   id: BaseScrapPile
   name: scrap pile
-  description: amogus.
+  description: Pile of industrial debris. It could use a shovel and pair of hands in gloves.
+  abstract: true
   components:
   - type: MeleeSound
     soundGroups:
@@ -11,10 +12,10 @@
           "/Audio/Weapons/grille_hit.ogg"
   - type: PlaceableSurface
   - type: Sprite
-    sprite: Structures/Storage/Scrap/cloth.rsi
+    sprite: Structures/Storage/Scrap/piles.rsi
     layers:
     - state: base_underlay
-    - state: my_icon
+    - state: industrial_trash
     netsync: false
     noRot: true
   - type: Storage
@@ -42,7 +43,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 30
+        damage: 100
       behaviors:
       - !type:PlaySoundBehavior
         sound:
@@ -54,3 +55,33 @@
             max: 1
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
+
+- type: entity
+  parent: BaseScrapPile
+  id: IndustrialScrapPile
+  name: industrial pile
+  description: Pile of used machinery. You could use tools from this to build something.
+
+- type: entity
+  parent: BaseScrapPile
+  id: ClothScrapPile
+  name: cloth pile
+  description: Pile of second hand clothing for charity.
+
+- type: entity
+  parent: BaseScrapPile
+  id: SyndieScrapPile
+  name: strange pile
+  description: Pile of left magbots, broken teleports and phoron tanks, jetpacks, random stations blueprints, soap, burned rcds, and meat with orange fur?.
+
+- type: entity
+  parent: BaseScrapPile
+  id: ScienceScrapPile
+  name: scientific trash pile
+  description: Pile of refuse from research department.
+
+- type: entity
+  parent: BaseScrapPile
+  id: ClothScrapPile
+  name: cloth pile
+  description: Pile of military supply refuse. Who thought it was a clever idea to throw that out?.

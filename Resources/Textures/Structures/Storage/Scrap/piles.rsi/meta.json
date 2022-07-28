@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from TauCetiStation at https://github.com/TauCetiStation/TauCetiClassic/commit/401d381d53ceb9a045bca9c0ae60eb52b5fab2c5",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "base_big"
+    },
+    {
+      "name": "base_underlay"
+    },
+    {
+      "name": "cloth_trash"
+    },
+    {
+      "name": "gun_trash"
+    },
+    {
+      "name": "science_trash"
+    },
+    {
+      "name": "mixed_trash"
+    },
+    {
+      "name": "syndie_trash"
+    },
+    {
+      "name": "med_trash"
+    },
+    {
+      "name": "food_trash"
+    },
+    {
+      "name": "industrial_trash"
+    }
+  ]
+}
