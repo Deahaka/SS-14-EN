@@ -9,6 +9,10 @@
         - state: red
         - texture: Structures/Storage/Scrap/piles.rsi/base_underlay.png
     - type: RandomSpawner
+      rarePrototypes:
+        - ScrapPileGun
+        - ScrapPileSyndie
+      rareChance: 0.05
       prototypes:
         - ScrapPileCloth
         - ScrapPileFood
@@ -16,8 +20,5 @@
         - ScrapPileMedical
         - ScrapPileMixed
         - ScrapPileScientific
-      chance: 0.7
-      rarePrototypes:
-        - ScrapPileGun
-        - ScrapPileSyndie
-      rareChance: 0.1
+      chance: 1.0
+      offset: 0.0

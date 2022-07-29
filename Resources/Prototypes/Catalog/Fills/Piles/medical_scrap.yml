@@ -32,17 +32,17 @@
         amount: 3
         prob: 0.01
       - id: Cautery
-        prob: 0.25
+        prob: 0.2
       - id: Drill
         prob: 0.01
       - id: Scalpel
-        prob: 0.25
+        prob: 0.2
       - id: ScalpelShiv
         prob: 0.01
       - id: Retractor
-        prob: 0.25
+        prob: 0.2
       - id: Hemostat
-        prob: 0.25
+        prob: 0.2
       - id: Saw
         prob: 0.01
       - id: HandheldHealthAnalyzer

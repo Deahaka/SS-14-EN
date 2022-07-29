@@ -7,21 +7,21 @@
   - type: StorageFill
     contents:
       - id: FoodPlate
-        prob: 0.8
+        prob: 0.2
       - id: FoodPlateTrash
         prob: 0.8
       - id: FoodPlateSmall
-        prob: 0.8
+        prob: 0.2
       - id: FoodPlateSmallTrash
         prob: 0.8
       - id: FoodPlateTin
-        prob: 0.8
+        prob: 0.4
       - id: FoodBoxDonut
         prob: 0.01
       - id: FoodContainerEgg
         prob: 0.01
       - id: EggBoxBroken
-        prob: 0.8
+        prob: 0.6
       - id: DrinkGlass
         prob: 0.8
       - id: DrinkShotGlass
